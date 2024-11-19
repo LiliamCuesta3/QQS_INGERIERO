@@ -6,42 +6,42 @@ public class Question {
     /**
      * La pregunta en formato de texto.
      */
-    private String statementQuestion;
+    public String statementQuestion;
     
     /**
      * Pista relacionada con la pregunta.
      */
-    private String clue;
+    public String clue;
     
     /**
      * Respuesta A de la pregunta.
      */
-    private Answer answerA;
+    public Answer answerA;
     
     /**
      * Respuesta B de la pregunta.
      */
-    private Answer answerB;
+    public Answer answerB;
     
     /**
      * Respuesta C de la pregunta.
      */
-    private Answer answerC;
+    public Answer answerC;
     
     /**
      * Respuesta D de la pregunta.
      */
-    private Answer answerD;
+    public Answer answerD;
     
     /**
      * Nivel de la pregunta.
      */
-    private int numberLevel;
+    public int numberLevel;
     
     /**
      * Indica si la pregunta está disponible.
      */
-    private boolean isAvaliable;
+    public boolean isAvaliable;
     
     // Constructor vacío
     /**

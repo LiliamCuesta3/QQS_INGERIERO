@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Game {
 
-    private int numberLevel;
-    private int numberTohelps;
-    private boolean useHelp;
-    private int numberQuestion;
-    private List<Question> questions;
+    public int numberLevel;
+    public int numberTohelps;
+    public boolean useHelp;
+    public int numberQuestion;
+    public List<Question> questions;
     
     // Constructor sin parámetros
     /**

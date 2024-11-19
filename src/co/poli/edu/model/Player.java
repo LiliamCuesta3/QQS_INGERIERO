@@ -6,12 +6,12 @@ public class Player {
     /**
      * El número de vidas del jugador.
      */
-    private int numberLives;
+    public int numberLives;
     
     /**
      * El número de puntos del jugador.
      */
-    private int numberPoints;
+    public int numberPoints;
 
     // Constructor sin parámetros
     /**
